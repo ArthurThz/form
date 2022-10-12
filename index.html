@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Conteudo principal -->
+    <main>
+        <div class="container">
+            <!-- Lado esquerdo onde se encontra a descrição -->
+            <section class="left-side">
+                <h2>Cadastre-se agora!</h2>
+                <p>Fique por dentro de todas as novidades</p>
+                <p>Receba nossos produtos diretamente na sua casa!</p>
+            </section>
+            <!-- Lado Direito onde se encontra o formulário -->
+            <section class="right-side">
+
+                <!-- Formulário -->
+                <form>
+                    <input type="text" placeholder="Digite seu nome " class="nome inputItem" name="nome">
+
+                    <input type="email" placeholder="Digite seu email aqui" class="email inputItem" name="email">
+
+
+                    <div class="number_cep">
+                        <input type="text" placeholder="Digite o CEP aqui" name="cep" class="cep inputItem">
+                        <input type="text" placeholder="Digite o numero aqui" class=" numero inputItem"
+                            name="complemento">
+                    </div>
+
+
+
+                    <input type="text" disabled name="rua" class="rua inputItem">
+
+                    <input type="text" disabled name="bairro" class="bairro inputItem">
+
+                    <input type="text" disabled name="cidade" class=" cidade inputItem">
+
+                    <input type="text" placeholder="Complemento" class="complemento inputItem" name="complemento">
+
+                    <input type="submit" value="Confirmar" class="btn">
+                </form>
+
+
+
+            </section>
+        </div>
+    </main>
+    <script src="src/js/app.js"></script>
+</body>
+
+</html>

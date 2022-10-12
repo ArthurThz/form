@@ -1,0 +1,42 @@
+@media (max-width:760px){
+
+    .container{
+        flex-direction: column;
+        height: 70%;
+        width: 100%;
+    }
+    .left-side,
+    .right-side{
+        width: 100%;
+        height: auto;
+    }
+    .right-side{
+      height:auto;
+      margin-top: 10px;
+    
+    }
+    .left-side h2{
+        font-size: 25px;
+    }
+    .left-side p{
+        font-size: 16px;
+    }
+    .left-side{
+        height: auto;
+        padding: 0 10px 0 10px;
+       
+    }
+    .description .complemento{
+        width: 65%;
+    }
+    .btn{
+        margin-top: 20px;
+        width: 40%;
+        background-color: #cbece4;
+        font-weight:400;
+    }
+    .btn:hover{
+        background-color: #f4c9a3;
+    
+    }
+}

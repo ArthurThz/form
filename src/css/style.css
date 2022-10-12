@@ -1,0 +1,112 @@
+main{
+    display: flex;
+    height: 100vh;
+    background-color:gray ;
+    justify-content: center;
+    background-image: url(../img/layered-peaks-haikei.svg);
+    background-size: cover;
+    padding: 10px;
+}
+/* Div que agrupa a descrição e o formulário */
+.container{
+    margin-top:5%;
+    height:60%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+/* Formulário */
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+form input{
+    padding: 0 5px 0 5px;
+}
+
+/* Classe que todos os inputs possuem */
+.inputItem {
+
+    width: 90%;
+    height:25px ;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+
+
+}
+
+/* Div para agrupamento de inputs(CEP e NUMERO) */
+.number_cep{
+    display: flex;
+    width: 90%;
+    justify-content:space-between ;
+    
+    margin-top: 10px;
+    font-family:'Mitr', sans-serif; 
+    font-weight: 300;
+    
+}
+
+.number_cep input{
+    
+    width: 50%;
+}
+
+.number_cep .numero{
+    margin-left: 5%;
+}
+
+/* Alutura da descrição e formulário */
+.left-side,
+.right-side{
+height: 100%;
+}
+/* Tamanho lado direito */
+.right-side{
+    width: 60%; 
+}
+
+/* Informações lado esquero */
+.left-side{
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mitr', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center  ;
+    
+}
+.left-side p{
+    margin-top: 10px;
+}
+.left-side h2{
+    font-size: 30px;
+}
+
+/* Botão de submit */
+.btn {
+    width:30%;
+    height: 35px;
+    font-size:17px;
+    font-weight: 400;
+    font-family: 'Mitr', sans-serif;
+    text-align: center;
+    border:none;
+    border-radius: 5px;
+    background-color: #99c9bd;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color:#f4c9a3 ;
+}
